@@ -1,0 +1,180 @@
+
+
+h1 {
+  color:#fb6f92;
+  text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    font-family: 'Shrikhand', cursive;
+    margin: 5px;
+    letter-spacing: 5px;
+
+}
+
+p {
+  color: #006D77;
+  margin: 5%;
+  font-family:'Josefin Sans', sans-serif;
+  size: 20px
+}
+
+
+h2 {
+    color: #EDF6F9;
+    font-family: 'Shrikhand', cursive;
+    size: 30px;
+    background-color: #006D77;
+
+}
+
+
+h3 {
+  color:#fb6f92;
+  font-family:'Josefin Sans',cursive; 
+  font-style: bold;
+  text-align: center;
+  size: 5px;
+}
+
+
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #006D77
+
+
+}
+
+
+div {
+  background-color:#f5ebe0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0px;
+  width: 600px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+
+.hobbies {
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.clara {
+  border-radius: 50%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 350px;
+}
+
+.Contact {
+
+display: inline-flex;
+align-items: center; 
+text-align: center; 
+width : 30px;
+height : 30px;
+padding: 10px 20px;
+background-color: #fb6f92; 
+border-radius: 20px; 
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease; 
+margin: 15px ;
+color: #f5ebe0;
+border : non;
+text-decoration: non;
+}
+
+.Contact:hover {
+  background-color: #006D77; 
+}
+
+.Contact:active {
+  background-color: #006D77; 
+  transform: scale(0.95); 
+}
+
+  a:link {
+        color: #f5ebe0;
+        text-decoration: non;
+        border: non;
+
+      }
+
+a {
+    text-decoration: none; 
+    color: inherit; /
+  }
+
+.logo {
+  width: 90px; 
+  height: 50px;
+  background-size: contain;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.logo:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.logo:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.btn-contact {
+
+  width : 200px;
+  height : 30px;
+  display: block;
+  margin: 0px auto;
+  display: flex ;
+  text-align: center; 
+  padding: 10px 20px;
+  background-color: #fb6f92; 
+  text-decoration: none;
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  justify-content: center; 
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 10px;
+
+}
+
+.btn-contact:hover {
+  background-color: #006D77; 
+}
+
+.btn-contact:active {
+  background-color: #006D77; 
+  transform: scale(0.95); 
+}
+
+.skills {
+
+   width : 30px;
+  height : 30px;
+  margin-left: 15px;
+
+}
+
+
+
